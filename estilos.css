@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.header{
+    background-image: linear-gradient(180deg, rgba(191, 186, 186, 0) 0%, rgb(255, 255, 255) 90%), url(images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: hsl(210, 10%, 33%);
+}
+
+.contenedor{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0;
+  text-align: center;
+}
+
+p{
+    line-height: 28px;
+}
+
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    background: hsl(171, 66%, 44%);
+    color: #fff;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 12px;
+    box-shadow: 0px 2px 0px 0px hsl(171, 74%, 32%);
+    
+}
+
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    background: hsl(233, 100%, 69%);
+    color: #fff;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 12px;
+    box-shadow: 0px 2px 0px 0px rgb(81, 91, 174);
+}
+
+.contenedor-textos p{
+    max-width: 580px;
+    margin: 15px auto;
+    
+}
+
+.contenedor-textos img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}  
+
+.seccion1{
+    padding-top: 30px;
+}
+
+.texto-subtitulo{
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.seccion1 p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contenedor-keep-track{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.beneficios{
+    width: 40%;
+    text-align: left;
+}
+
+.ilustracionpc{
+    width: 50%;
+}
+
+.access p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.imagenes-supercharge{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-supercharge{
+    width: 31%;
+    margin-top: 40px;
+}
+
+h3{
+    padding: 15px;
+}
+
+.imagenes-fondo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.clipboard p{
+    max-width: 580px;
+    margin: 30px auto;
+}
+
+.footer{
+    display: flex;
+    background: #f2f2f2;
+    justify-content: space-around;
+    height: 130px;
+    align-items: center;
+}
+
+.piedepagina{
+    text-decoration: none;
+    color:hsl(210, 10%, 33%);
+}
+
+.logo-footer{
+    display: flex;
+    flex: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 13%;
+}
+
+.piedepagina-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 50%;
+}
+
+.piedepagina{
+   width: 30%;
+   height: 40px;
+}
+
+.redes-sociales-footer{
+    display: flex;
+    flex: 25%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgsfooter{
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+.piedepagina:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.imgsfooter:hover{
+    filter: invert(55%) sepia(83%) saturate(367%) hue-rotate(122deg) brightness(94%) contrast(93%);
+}
+
+.btn1:hover{
+    background: hsl(170, 51%, 68%);
+}
+
+.btn2:hover:hover{
+    background: hsl(233, 69%, 77%);
+}
+
+@media screen and (max-width: 768px){
+
+    .header{
+        background-image: linear-gradient(180deg, rgba(191, 186, 186, 0) 0%, rgb(255, 255, 255) 90%), url(images/bg-header-mobile.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: hsl(210, 10%, 33%);
+    }
+
+    .contenedor-textos p{
+      margin: 15px 0;
+    }
+    .btn1{
+        width: 90%;
+        margin-bottom: 10px;
+        height: 40px;
+        padding-top: 12px;
+    }
+    
+    .btn2{
+        width: 90%;
+        height: 40px;
+        padding-top: 12px;
+    }
+
+    .contenedor-keep-track{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .texto-subtitulo{
+        margin: 0;
+    }
+
+    .seccion1 p{
+        width: 100%;
+        align-content: center;
+    }
+
+    .ilustracionpc{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .beneficios{
+        width: 100%;
+        text-align: center;
+    }
+
+    .access img{
+        width: 100%;
+    }
+
+    .imagenes-supercharge{
+        margin-top: 20px;
+    }
+
+    .imagen-supercharge{
+        width: 270px;
+    }
+
+    .imagen-supercharge img{
+        width: 20%;
+        margin: 20px 0
+    }
+
+    .imagen-fondo{
+       width: 350px;
+       margin-bottom: 40px;
+       
+    }
+
+    .imagenes-fondo img{
+        width: 35%;
+   }
+
+   .clipboard p{
+       margin: 30px 0;
+   }
+
+   .footer{
+     height: 400px;
+     flex-wrap: wrap;
+     margin-top: 80px;
+
+   }
+
+   .logo-footer{
+       flex: 100%;
+   }
+
+   .piedepagina-footer{
+       flex: 100%;
+   } 
+
+   .piedepagina{
+       display: flex;
+       flex: 60%;
+       justify-content: center;
+   }
+
+   .redes-sociales-footer{
+       flex: 100%;
+   }
+
+   .imgsfooter{
+       margin: 0 14px;
+   }
+
+}
+
+
